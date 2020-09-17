@@ -24,6 +24,8 @@ def main():
 
 
     file_reader.close()
+    file_reader = open('dream_writer.txt', 'w')
+    file_reader.close()
     file_writer.close()
 
 
